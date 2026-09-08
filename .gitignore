@@ -1,0 +1,35 @@
+# Large genomic data files
+*.vcf
+*.vcf.gz
+*.bcf
+*.bed
+*.bim
+*.fam
+*.pgen
+*.pvar
+*.psam
+
+# PLINK intermediate/output files
+*.log
+*.nosex
+*.hh
+*.frq
+*.prune.in
+*.prune.out
+*.eigenvec
+*.eigenval
+
+# Python environments
+pcavenv/
+gwasvenv/
+venv/
+.venv/
+
+# Large downloaded/reference data
+*.fasta
+*.fasta.gz
+*.fa
+*.fa.gz
+
+# OS files
+.DS_Store
