@@ -33,3 +33,26 @@ venv/
 
 # OS files
 .DS_Store
+# Large raw genomic data - never commit these (multi-GB)
+*.vcf.gz
+*.vcf.gz.tbi
+*.bcf
+*.bcf.csi
+*.bed
+*.bim
+*.fam
+*.fasta
+*.fasta.fai
+human_g1k_v37*
+wget-log*
+
+# Python
+venv/
+pcavenv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Note: small result files (*.frq, *.eigenvec, *.eigenval, *.log) are
+# intentionally NOT ignored - they're small text files the notebooks read
+*:Zone.Identifier
